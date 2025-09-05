@@ -19,6 +19,14 @@
     "profiles": [
       {
         "site": {
+          "id": "gravatar",
+          "name": "Gravatar"
+        },
+        "url": "https://www.gravatar.com/dhruvkb",
+        "username": "dhruvkb"
+      },
+      {
+        "site": {
           "id": "whatsapp",
           "name": "WhatsApp"
         },
