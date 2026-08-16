@@ -710,61 +710,19 @@
         "dest": "https://openverse.org",
         "label": "Openverse homepage"
       },
-      "summary": "An open-source search engine for openly-licensed media.",
-      "description": "Openverse indexes 800M+ images and audio tracks from open APIs, public repositories, and the Common Crawl dataset. It facilitate reuse through features like automattic attribution.",
+      "summary": "Openverse is a catalog of 800M+ openly licensed media, a search engine, an API & an <a href=\"https://docs.openverse.org/api/reference/made_with_ov.html\">ecosystem of integrations</a>.",
+      "description": "Openverse is a catalog of 800M+ openly-licensed images and audio, aggregated from open APIs, public repositories, and the Common Crawl dataset. It provides a search engine that makes the media discoverable and facilitates reuse and attribution. It also provides an API for third-parties to integrate the search into their own applications, and has a growing <a href=\"https://docs.openverse.org/api/reference/made_with_ov.html/\">ecosystem of integrations</a>.",
       "projects": [
         {
           "id": "search_engine",
-          "name": "openverse.org",
+          "name": "Search engine",
           "role": "Maintainer",
-          "summary": "The primary channel to search across 800M+ creative works.",
-          "description": "The search engine at Openverse.org is one of the primary ways of accessing Openverse's massive index of openly-licensed media, either by searching for something specifically or browsing via collections.",
+          "summary": "Openverse provides a search engine to find, explore, reuse & correctly attribute openly licensed works.",
+          "description": "Openverse provides a search engine as the primary way of accessing Openverse's massive index of openly-licensed media. It can be used to find, browse and peruse the collection and facilitates reuse through clear licensing and one-click attribution.",
           "highlights": [
-            "Migrated the codebase to a monorepo with intricate CI/CD.",
-            "Added privacy-friendly analytics for general usage metrics.",
-            "Created safeguards to prevent sensitive content exposure.",
-            "Evaluated & adopted PDM as the Python package manager.",
-            "Developed the <code>ov</code> environment for onboarding new devs."
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript",
-              "shortName": "TS"
-            },
-            {
-              "id": "nuxt",
-              "name": "Nuxt"
-            },
-            {
-              "id": "tailwindcss",
-              "name": "Tailwind"
-            },
-            {
-              "id": "vitest",
-              "name": "Vitest"
-            },
-            {
-              "id": "playwright",
-              "name": "Playwright"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "api",
-          "name": "API",
-          "url": {
-            "dest": "https://api.openverse.org",
-            "label": "Openverse API"
-          },
-          "role": "Maintainer",
-          "summary": "Provides catalogue access to integrations via a RESTful API.",
-          "description": "The Openverse API is a RESTful interface to access Openverse's massive index of openly-licensed media. The API powers a number of high-profile integrations such as search engine <a href=\"https://kagi.com/\">Kagi</a> and learning platform <a href=\"https://www.sutori.com/en/\">Sutori</a>.",
-          "highlights": [
-            "Refactored to use Django REST framework best practices.",
-            "Generalised to support new media types, such as audio.",
-            "Created pipelines for individual & bulk content moderation."
+            "Rebuilt API with <a href=\"https://www.django-rest-framework.org\">Django REST framework</a>, best practices & extensibility to support the audio media type.",
+            "Designed content-moderation workflows with audit logs, for individual & bulk (creator/collection) actions.",
+            "Built privacy-first usage analytics with Plausible & safeguards to prevent exposure to sensitive content."
           ],
           "technologies": [
             {
@@ -774,6 +732,15 @@
             {
               "id": "django",
               "name": "Django"
+            },
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "nuxt",
+              "name": "Nuxt"
             },
             {
               "id": "postgresql",
@@ -786,18 +753,17 @@
               "shortName": "ES"
             }
           ],
-          "tags": ["resume_pdf"]
+          "tags": ["resume_pdf", "cv_pdf"]
         },
         {
           "id": "infrastructure",
           "name": "Infrastructure",
           "role": "Maintainer",
-          "summary": "Openverse's IaC for <a href=\"https://aws.amazon.com/\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services.",
-          "description": "Openverse's infrastructure uses <a href=\"https://aws.amazon.com/\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services, which are managed as code to ensure reproducibility and scalability.",
+          "summary": "Openverse runs on <a href=\"https://aws.amazon.com\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services managed as code for reproducibility & scalability.",
+          "description": "Openverse's infrastructure uses <a href=\"https://aws.amazon.com\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services, which are managed as code to ensure reproducibility and scalability.",
           "highlights": [
-            "Implemented monitoring with notification and alert workflows.",
-            "Executed software & platform updates for all services.",
-            "Performed periodic upkeep and rotation of resources."
+            "Performed platform, software & security updates, including routine cloud resource upkeep & rotation.",
+            "Implemented platform monitoring, actionable alerts & CI/CD notifications while handling on-call rotations."
           ],
           "technologies": [
             {
@@ -819,10 +785,38 @@
             },
             {
               "id": "cloudflare",
-              "name": "cloudflare"
+              "name": "Cloudflare"
             }
+          ]
+        },
+        {
+          "id": "developer_experience",
+          "name": "DevEx",
+          "role": "Maintainer",
+          "descriptions": "// TODO",
+          "highlights": [
+            "Migrated separate code repositories into a polyglot monorepo hosting the catalog, API, frontend & docs.",
+            "Unified the polyglot monorepo's tooling, CI/CD workflows & automation to improve developer experience.",
+            "Lowered entry barrier for new contributors by building the <code>ov</code> dev environment & authoring helpful docs."
           ],
-          "tags": ["resume_pdf"]
+          "technologies": [
+            {
+              "id": "pdm",
+              "name": "PDM"
+            },
+            {
+              "id": "docker",
+              "name": "Docker"
+            },
+            {
+              "id": "github",
+              "name": "GitHub"
+            },
+            {
+              "id": "githubactions",
+              "name": "GitHub Actions"
+            }
+          ]
         },
         {
           "id": "documentation",
@@ -832,12 +826,10 @@
             "label": "Openverse documentation"
           },
           "role": "Author",
-          "summary": "The primary source of information for developers.",
           "description": "Openverse has detailed documentation for developers contributing to the project, which also includes every project proposal, implementation plan and release note for the entire project.",
           "highlights": [
-            "Conceived and initialised the documentation site.",
-            "Authored the setup, quickstart and maintenance guides.",
-            "Created workflows to deploy the main and preview doc sites."
+            "Built the documentation system & authored guides for new contributors & experienced maintainers.",
+            "Created workflows to auto-build preview docs for pull requests & deploy docs to production after merge."
           ],
           "technologies": [
             {
@@ -859,15 +851,14 @@
           "id": "raycast_ext",
           "name": "Raycast plugin",
           "url": {
-            "dest": "https://www.raycast.com/openverse/openverse",
+            "dest": "https://www.raycast.com/openverse",
             "label": "Openverse in the Raycast Store"
           },
           "role": "Creator",
-          "summary": "Enables searching the Openverse catalogue from the desktop.",
-          "description": "This extension provides a way to search for Openverse images inside Raycast, browse through the top results, find a suitable image, obtain a copy of it and get attribution information, all with just a few keystrokes.",
+          "summary": "The Raycast extension enables keyboard-driven searches of the Openverse image catalogue from the desktop.",
+          "description": "The Raycast extension provides a way to search for Openverse images inside Raycast, browse through the top results, find a suitable image, obtain a copy of it and get attribution information, all with just a few keystrokes.",
           "highlights": [
-            "Developed the plugin using Raycast APIs.",
-            "Provides image search, download, attribution and reporting."
+            "Built & published the Openverse plugin with BYOK support to search, download, attribute & report images."
           ],
           "technologies": [
             {
