@@ -312,18 +312,21 @@
         "state": "CA",
         "countryCode": "US"
       },
-      "summary": "The folks behind <a href=\"https://wordpress.com\">WP.com</a>, <a href=\"https://woocommerce.com/\">Woo</a>, <a href=\"https://jetpack.com/\">Jetpack</a>, <a href=\"https://gravatar.com/\">Gravatar</a> & <a href=\"https://www.tumblr.com/\">Tumblr</a>.",
-      "description": "Automattic is the company behind <a href=\"https://wordpress.com\">WordPress.com</a>, <a href=\"https://woocommerce.com/\">WooCommerce</a>, <a href=\"https://jetpack.com/\">Jetpack</a>, <a href=\"https://gravatar.com/\">Gravatar</a>, <a href=\"https://www.tumblr.com/\">Tumblr</a>, and more. They believe in making the web a better place.",
+      "summary": "Automattic is the company behind <a href=\"https://www.parse.ly/\">Parse.ly</a>, <a href=\"https://wordpress.com\">WordPress.com</a>, <a href=\"https://www.tumblr.com\">Tumblr</a>, <a href=\"https://woocommerce.com\">WooCommerce</a>, <a href=\"https://gravatar.com\">Gravatar</a>, <a href=\"https://www.beeper.com\">Beeper</a> <em>etc.</em>",
+      "description": "Automattic is the company behind <a href=\"https://www.parse.ly/\">Parse.ly</a>, <a href=\"https://wordpress.com\">WordPress.com</a>, <a href=\"https://www.tumblr.com\">Tumblr</a>, <a href=\"https://woocommerce.com\">WooCommerce</a>, <a href=\"https://gravatar.com\">Gravatar</a>, <a href=\"https://www.beeper.com\">Beeper</a> and many more.",
       "roles": [
         {
           "id": "code_wrangler",
-          "name": "Code wrangler",
+          "name": "Senior software engineer",
+          "teams": ["Unified Analytics", "Applied AI"],
           "period": {
             "start": [2025, 1]
           },
           "type": "full-time",
           "location": "remote",
-          "epicIds": ["parsedotly"]
+          "summary": "Conceived & built the unified framework underpinning the <a href=\"https://parsely.com\">Parse.ly</a> API, MCP server & agent/chatbot Sage.",
+          "epicIds": ["parsedotly"],
+          "tags": ["resume_pdf", "cv_pdf"]
         }
       ]
     },
