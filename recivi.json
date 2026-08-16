@@ -1253,27 +1253,37 @@
       ]
     },
     {
-      "id": "skyscraper",
-      "name": "Skyscraper",
-      "summary": "Scrape everything.",
+      "id": "portfolio",
+      "name": "Portfolio",
+      "url": {
+        "dest": "https://dhruvkb.dev",
+        "label": "Portfolio"
+      },
+      "summary": "My portfolio combines a blog/digital garden with an interactive, printable résumé in one personal website.",
+      "description": "My portfolio is my small, personal corner of the Internet. It's my digital garden, interactive/printable résumé and more rolled into one website.",
       "projects": [
         {
-          "id": "website",
-          "name": "Dubai properties",
+          "id": "site",
+          "name": "Website",
           "role": "Creator",
-          "summary": "Scrapes and aggregates information about Dubai properties.",
+          "summary": "Built my personal website as a static site using <a href=\"https://recivi.pages.dev\">Récivi</a>'s PF renderer alongside MDX, TypeScript & Astro.",
           "technologies": [
             {
-              "id": "python",
-              "name": "Python"
+              "id": "mdx",
+              "name": "MDX"
             },
             {
-              "id": "django",
-              "name": "Django"
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
             },
             {
-              "id": "htmx",
-              "name": "htmx"
+              "id": "astro",
+              "name": "Astro"
+            },
+            {
+              "id": "recivi",
+              "name": "Récivi"
             }
           ]
         }
