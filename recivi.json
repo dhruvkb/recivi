@@ -600,7 +600,7 @@
         "dest": "https://img.channeli.in",
         "label": "IMG homepage"
       },
-      "summary": "The student body behind the IIT-R website & intranet portal.",
+      "summary": "IMG is the technical student group behind the IIT Roorkee website & Channel-i, the institute's intranet portal.",
       "description": "IMG a student group, which cultivates technical innovation and drives the development of software systems and niche applications which empathize with the residents of IIT Roorkee.",
       "roles": [
         {
@@ -613,14 +613,9 @@
           "type": "part-time",
           "location": "onsite",
           "highlights": [
-            "Pivoted IMG as a group from app to platform development.",
-            "Upgraded the legacy portal, tech stack & apps to <a href=\"https://omniport.readthedocs.io/\">Omniport</a>.",
-            "Containerised, decoupled & stabilised dev processes.",
-            "Halved timelines by revamping the development paradigm.",
-            "Mentored a team of over 50 developers and designers.",
-            "Fostered <a href=\"https://github.com/IMGIITRoorkee/\">OSS culture</a> by open-sourcing 40+ repos.",
-            "Led IMG to 10 and 13 <a href=\"https://summerofcode.withgoogle.com/\">GSoC</a> selections in 2018 and 2019.",
-            "Reinvigorated IMG's popular image on various <a href=\"https://facebook.com/IMGIITRoorkee\">social media</a>."
+            "Upgraded IMG's legacy portal & applications to <a href=\"https://omniport.readthedocs.io\">Omniport</a>, a comprehensive college-wide app platform.",
+            "Modularised design & development workflows, halving the end-to-end application development timeline.",
+            "Mentored about 50 developers, <a href=\"https://github.com/IMGIITRoorkee\">fostered OSS culture</a> & led IMG to a record number of <a href=\"https://summerofcode.withgoogle.com/\">GSoC</a> selections."
           ],
           "epicIds": ["omniport"]
         }
