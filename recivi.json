@@ -264,6 +264,8 @@
         "dest": "https://sdaschoolsanpada.in",
         "label": "SDA homepage"
       },
+      "summary": "SDA School, founded in 2001, is an ICSE-affiliated Navi Mumbai day school with classes up to Class XII.",
+      "description": "SDA School, founded in 2001, is an ICSE-affiliated day school that offers classes up to Class XII.",
       "address": {
         "city": "Navi Mumbai",
         "state": "MH",
@@ -277,11 +279,21 @@
           "shortName": "CISCE Class 10",
           "issue": [2012],
           "period": {
-            "start": [2015],
-            "end": [2019]
+            "start": [2010],
+            "end": [2012]
           },
-          "score": "7.286",
-          "maxScore": "10.000"
+          "score": "94.8",
+          "maxScore": "100.0",
+          "summary": "Scored 94.8%, averaged across all subjects: English, Hindi, EVS, SST, Maths, Science, Computer Applications.",
+          "courses": [
+            "English Grammar & Literature",
+            "Hindi",
+            "Environmental Education",
+            "History, Civics & Geography",
+            "Mathematics",
+            "Science (Physics, Chemistry & Biology)",
+            "Computer Applications"
+          ]
         }
       ]
     }
