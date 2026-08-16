@@ -887,13 +887,12 @@
           "id": "email",
           "name": "Email system",
           "role": "Maintainer",
-          "summary": "A central email management system for the platform.",
-          "description": "BrowserStack's central email system was a comprehensive solution for sending all kinds of email (transactional and marketing), all while respecting user's communication preferences and never breaching GDPR regulations.",
+          "summary": "BrowserStack's central email system handled sending all kinds of email while respecting the users' preferences.",
+          "description": "BrowserStack's central email system was a comprehensive solution for sending all kinds of email (transactional and marketing), all while respecting users' communication preferences and never breaching GDPR regulations.",
           "highlights": [
-            "Integrated multiple email providers into a single endpoint.",
-            "Seamlessly synced email opt-outs across multiple channels.",
-            "Provided insights into email deliverability and engagement.",
-            "Prevented breach of privacy regulations via detailed audit logs."
+            "Unified all transactional & promotional email providers into a central system that respects user preferences.",
+            "Surfaced & improved deliverability metrics through redundancy & SPF/DKIM/DMARC security controls.",
+            "Surfaced & improved engagement metrics through provider-wide opt-out sync, cutting spam reports."
           ],
           "technologies": [
             {
@@ -916,18 +915,18 @@
               "id": "amazonwebservices",
               "name": "AWS"
             }
-          ]
+          ],
+          "tags": ["cv_pdf"]
         },
         {
           "id": "users_billing",
           "name": "Users/billing",
           "role": "Maintainer",
-          "summary": "Manages user accounts, subscriptions, invoicing and payments.",
-          "description": "BrowserStack's user and billing platform handled everything from accounts and authentication to subscriptions, invoices and payments. It integrated with identity providers, subscription platforms and payment gateways.",
+          "summary": "BrowserStack's user & billing platform handled accounts, authentication, subscriptions, invoices & payments.",
+          "description": "BrowserStack's user and billing platform handled everything from user accounts and authentication to subscriptions, invoices and payments. It integrated with identity providers, subscription platforms and payment gateways.",
           "highlights": [
-            "Oversaw the complex finite-state machine of subscription status.",
-            "Handled edge cases of state correction & dispute resolution.",
-            "Created a dashboard to aggregate complete history of a user."
+            "Oversaw the complex finite-state machine of subscription statuses & codified resolutions of new edge cases.",
+            "Created a dashboard to aggregate complete subscription, invoice & payment history of each customer."
           ],
           "technologies": [
             {
@@ -938,7 +937,8 @@
               "id": "rubyonrails",
               "name": "Rails"
             }
-          ]
+          ],
+          "tags": ["cv_pdf"]
         }
       ]
     },
