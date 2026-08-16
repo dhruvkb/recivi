@@ -77,99 +77,6 @@
         "username": "dhruvkb"
       }
     ],
-    "skills": [
-      {
-        "id": "openjdk",
-        "name": "Java",
-        "subSkills": ["Swing", { "id": "spring", "name": "Spring" }]
-      },
-      {
-        "id": "kotlin",
-        "name": "Kotlin",
-        "subSkills": [{ "id": "android", "name": "Android" }]
-      },
-      { "id": "go", "name": "Golang" },
-      { "id": "php", "name": "PHP" },
-      {
-        "name": "Web",
-        "subSkills": [
-          { "id": "html5", "name": "HTML" },
-          { "id": "css", "name": "CSS" },
-          { "id": "javascript", "name": "JS" },
-          { "id": "svg", "name": "SVG" }
-        ]
-      },
-      {
-        "name": "Shell",
-        "subSkills": [
-          { "id": "gnubash", "name": "Bash" },
-          { "id": "zsh", "name": "Zsh" }
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "name": "English",
-        "speak": "native",
-        "listen": "native",
-        "write": "native",
-        "read": "native"
-      },
-      {
-        "name": {
-          "id": "hi",
-          "name": "हिन्दी",
-          "englishName": "Hindi"
-        },
-        "speak": "native",
-        "listen": "native",
-        "write": "native",
-        "read": "native"
-      },
-      {
-        "name": {
-          "id": "kfr",
-          "name": "કચ્છી",
-          "englishName": "Kutchi"
-        },
-        "speak": "native",
-        "listen": "native",
-        "read": "elementary"
-      },
-      {
-        "name": {
-          "id": "gu",
-          "name": "ગુજરાતી",
-          "englishName": "Gujarati"
-        },
-        "speak": "limited_working",
-        "listen": "professional_working",
-        "write": "limited_working",
-        "read": "limited_working"
-      },
-      {
-        "name": {
-          "id": "mr",
-          "name": "मराठी",
-          "englishName": "Marathi"
-        },
-        "speak": "professional_working",
-        "listen": "professional_working",
-        "write": "professional_working",
-        "read": "limited_working"
-      },
-      {
-        "name": {
-          "id": "fr",
-          "name": "Français",
-          "englishName": "French"
-        },
-        "speak": "elementary",
-        "listen": "elementary",
-        "write": "limited_working",
-        "read": "limited_working"
-      }
-    ],
     "residence": {
       "city": "Dubai",
       "countryCode": "AE"
@@ -1323,6 +1230,174 @@
           ]
         }
       ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web",
+      "subSkills": [
+        {
+          "id": "html5",
+          "name": "HTML"
+        },
+        {
+          "id": "css",
+          "name": "CSS"
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "shortName": "JS"
+        },
+        {
+          "id": "svg",
+          "name": "SVG"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "subSkills": [
+        {
+          "id": "django",
+          "name": "Django"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "subSkills": [
+        {
+          "id": "vuedotjs",
+          "name": "Vue",
+          "subSkills": [
+            {
+              "id": "nuxt",
+              "name": "Nuxt"
+            }
+          ]
+        },
+        {
+          "id": "react",
+          "name": "React"
+        },
+        {
+          "id": "astro",
+          "name": "Astro"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "name": "Rust"
+    },
+    {
+      "id": "openjdk",
+      "name": "Java",
+      "subSkills": [
+        "Swing",
+        {
+          "id": "spring",
+          "name": "Spring"
+        }
+      ]
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "subSkills": [
+        {
+          "id": "android",
+          "name": "Android"
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "name": "Golang"
+    },
+    {
+      "id": "php",
+      "name": "PHP"
+    },
+    {
+      "name": "Shell",
+      "subSkills": [
+        {
+          "id": "gnubash",
+          "name": "Bash"
+        },
+        {
+          "id": "zsh",
+          "name": "Zsh"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "speak": "native",
+      "listen": "native",
+      "write": "native",
+      "read": "native"
+    },
+    {
+      "name": {
+        "id": "hi",
+        "name": "हिन्दी",
+        "englishName": "Hindi"
+      },
+      "speak": "native",
+      "listen": "native",
+      "write": "native",
+      "read": "native"
+    },
+    {
+      "name": {
+        "id": "kfr",
+        "name": "કચ્છી",
+        "englishName": "Kutchi"
+      },
+      "write": "not_possible",
+      "speak": "native",
+      "listen": "native",
+      "read": "elementary"
+    },
+    {
+      "name": {
+        "id": "gu",
+        "name": "ગુજરાતી",
+        "englishName": "Gujarati"
+      },
+      "speak": "limited_working",
+      "listen": "professional_working",
+      "write": "limited_working",
+      "read": "limited_working"
+    },
+    {
+      "name": {
+        "id": "mr",
+        "name": "मराठी",
+        "englishName": "Marathi"
+      },
+      "speak": "professional_working",
+      "listen": "professional_working",
+      "write": "professional_working",
+      "read": "limited_working"
+    },
+    {
+      "name": {
+        "id": "fr",
+        "name": "Français",
+        "englishName": "French"
+      },
+      "speak": "elementary",
+      "listen": "elementary",
+      "write": "limited_working",
+      "read": "limited_working"
     }
   ]
 }
