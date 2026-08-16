@@ -411,12 +411,13 @@
         "state": "MH",
         "countryCode": "IN"
       },
-      "summary": "A cloud platform for testing on real browsers & devices.",
-      "description": "BrowserStack is a cloud platform that provides a way to test websites and mobile applications on real mobile browsers and devices.",
+      "summary": "BrowserStack is a cloud platform to test websites & mobile applications on real mobile browsers & devices.",
+      "description": "BrowserStack is a cloud platform that provides a way to test websites & mobile applications on real mobile browsers & devices.",
       "roles": [
         {
           "id": "software_engineer",
           "name": "Software engineer",
+          "teams": ["Platform", "Billing"],
           "period": {
             "start": [2020, 2],
             "end": [2021, 3]
@@ -424,14 +425,12 @@
           "type": "full-time",
           "location": "onsite",
           "highlights": [
-            "Identified & fixed systemic issues to prevent GDPR breaches.",
-            "Built audit logs to detect & alert for GDPR breaches.",
-            "Integrated multiple providers into a common email system.",
-            "Created system to track & visualise email engagement.",
-            "Implemented SPF, DKIM, DMARC for safety and deliverability."
+            "Built GDPR audit logs to flag privacy violations, then fixed the systemic breaches uncovered by the logs.",
+            "Unified email providers to sync preferences, ensure compliance & surface delivery & engagement insights.",
+            "Secured email delivery via SPF/DKIM/DMARC & provider-wide opt-out sync, cutting spam reports."
           ],
           "epicIds": ["browserstack"],
-          "tags": ["resume_pdf"]
+          "tags": ["resume_pdf", "cv_pdf"]
         }
       ]
     },
