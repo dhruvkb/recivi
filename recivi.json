@@ -1064,19 +1064,18 @@
         "dest": "https://pls.cli.rs",
         "label": "`pls` homepage"
       },
-      "summary": "A prettier and powerful <code>ls(1)</code> for the pros.",
-      "description": "<code>pls</code> is a prettier and powerful alternative to <code>ls(1)</code>, which adds many niche powerful features, is far more customisable and more easily customisable, and just <em>sparks joy</em>.",
+      "summary": "<code>pls</code> is a prettier & powerful <code>ls(1)</code> for the pros: highly customisable, feature-rich & designed to <em>spark joy</em>.",
+      "description": "<code>pls</code> is a prettier and powerful <code>ls(1)</code> for the pros. It's a modern alternative which adds many niche but powerful features, is very customisable, and is designed to <em>spark joy</em>.",
       "projects": [
         {
           "id": "cli_application",
           "name": "CLI application",
           "role": "Creator",
-          "summary": "An intuitive & elegant command-line interface.",
-          "description": "<code>pls</code> provides a very intuitive and elegant command-line interface with meaningful arguments, sane defaults and predictable behaviour.",
+          "summary": "<code>pls</code> provides an intuitive & elegant command-line interface with meaningful arguments & sensible defaults.",
+          "description": "<code>pls</code> provides a very intuitive and elegant command-line interface with meaningful arguments and sane defaults.",
           "highlights": [
-            "Enabled boundless customisation with cascading config files.",
-            "Included niche features for power users, like Git integration.",
-            "Added SVG support in terminal using Kitty graphics protocol."
+            "Built power-user features including <a href=\"https://pls.cli.rs/features/collapse\">collapses</a>, symlink metadata, multiple sort bases & numerous filters.",
+            "Added VS Code icon-pack support to render SVG icons in the terminal through the Kitty graphics protocol."
           ],
           "technologies": [
             {
@@ -1086,19 +1085,22 @@
             {
               "id": "yaml",
               "name": "YAML"
+            },
+            {
+              "id": "svg",
+              "name": "SVG"
             }
           ],
-          "tags": ["resume_pdf"]
+          "tags": ["resume_pdf", "cv_pdf"]
         },
         {
           "id": "documentation",
           "name": "Documentation",
           "role": "Author",
-          "summary": "Thorough end-user documentation for all features.",
           "description": "<code>pls</code> is accompanied by thorough documentation describing all the options, their behaviour and quirks, with adequate examples.",
           "highlights": [
-            "Deployed as a static site with an automated CI + CD pipeline.",
-            "Created a pipeline to generate examples for every release."
+            "Authored the documentation & built an automated CI/CD pipeline that deploys a static site for each release.",
+            "Built an automated system to run <code>pls</code> & generate real-output examples for every documented feature."
           ],
           "technologies": [
             {
