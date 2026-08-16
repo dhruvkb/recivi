@@ -1280,6 +1280,49 @@
           ]
         }
       ]
+    },
+    {
+      "id": "styleguide",
+      "name": "Styleguide",
+      "url": {
+        "dest": "https://github.com/dhruvkb/styleguide",
+        "label": "GitHub repo"
+      },
+      "summary": "Styleguide standardises my personal projects, keeping them synchronised, up to date & consistent.",
+      "projects": [
+        {
+          "id": "cli_application",
+          "name": "CLI application",
+          "role": "Creator",
+          "summary": "The styleguide's <code>sg</code> CLI synchronises & validates repositories against a common set of project conventions.",
+          "highlights": [
+            "Built the <code>sg</code> CLI & pre-commit hooks to synchronise & validate repositories against the styleguide.",
+            "Adopted the system across all personal projects, keeping repositories synced, consistent & up to date."
+          ],
+          "technologies": [
+            {
+              "id": "python",
+              "name": "Python"
+            },
+            {
+              "id": "typer",
+              "name": "Typer"
+            },
+            {
+              "id": "jinja",
+              "name": "Jinja"
+            },
+            {
+              "id": "prek",
+              "name": "Prek"
+            },
+            {
+              "id": "oxc",
+              "name": "Oxc"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
