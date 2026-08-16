@@ -630,13 +630,19 @@
         "dest": "https://parse.ly",
         "label": "Parse.ly homepage"
       },
-      "summary": "A content analytics platform for publishers.",
-      "description": "Parse.ly is a content analytics platform that helps digital publishers understand their audience and content performance.",
+      "summary": "Parse.ly is an analytics platform that helps digital publishers understand audiences & content performance.",
+      "description": "Parse.ly is an analytics & optimization platform that helps digital publishers understand their audience & content performance.",
       "projects": [
         {
-          "id": "query_platform",
-          "name": "Query platform",
-          "role": "Creator",
+          "id": "dash",
+          "name": "Dash",
+          "role": "Developer",
+          "summary": "The Parse.ly dashboard delivers real-time analytics, visualisations & reports through an accessible interface.",
+          "description": "The Parse.ly dashboard delivers real-time analytics, visualisations and reports through an accessible interface that everyone, not just data people, can understand.",
+          "highlights": [
+            "Rebuilt API endpoints with REST principles, generated schemas, OpenAPI specs, validations, docs & tests.",
+            "Revamped HTML/PDF report pipeline, removed unmaintained deps, fixed bugs & added more languages."
+          ],
           "technologies": [
             {
               "id": "python",
@@ -647,11 +653,53 @@
               "name": "Django"
             },
             {
-              "id": "elasticsearch",
-              "name": "Elasticsearch",
-              "shortName": "ES"
+              "id": "pydantic",
+              "name": "Pydantic"
+            },
+            {
+              "id": "openapiinitiative",
+              "name": "OpenAPI"
+            },
+            {
+              "id": "javascript",
+              "name": "JavaScript",
+              "shortName": "JS"
+            },
+            {
+              "id": "vuedotjs",
+              "name": "Vue"
             }
-          ]
+          ],
+          "tags": ["resume_pdf", "cv_pdf"]
+        },
+        {
+          "id": "sage",
+          "name": "Sage",
+          "role": "Developer",
+          "summary": "<a href=\"https://docs.parse.ly/user-handbook/dashboard/parsely-sage\">Sage</a> is an AI agent that can answer complex analytical questions to provide actionable insights & decisions.",
+          "description": "<a href=\"https://docs.parse.ly/user-handbook/dashboard/parsely-sage\">Sage</a> is an AI agent that can answer complex analytical questions to turn data into actionable insights & decisions.",
+          "highlights": [
+            "Tripled efficiency by auto-generating MCP & Sage tools from Parse.ly APIs using their OpenAPI specs.",
+            "Built Sage's agentic loop to orchestrate multiple tool calls for complex queries & rich, interactive widgets."
+          ],
+          "technologies": [
+            {
+              "name": "Python"
+            },
+            {
+              "id": "django",
+              "name": "Django"
+            },
+            {
+              "id": "openapiinitiative",
+              "name": "OpenAPI"
+            },
+            {
+              "id": "modelcontextprotocol",
+              "name": "MCP"
+            }
+          ],
+          "tags": ["resume_pdf", "cv_pdf"]
         }
       ]
     },
