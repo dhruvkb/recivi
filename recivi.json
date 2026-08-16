@@ -558,8 +558,8 @@
         "state": "KA",
         "countryCode": "IN"
       },
-      "summary": "A platform for hosting hackathons and coding challenges.",
-      "description": "HackerEarth provides a platform for testing and hiring developers using skill-based tests. HackerEarth also provides a way to host internal/branded hackathons where they manage the entire experience.",
+      "summary": "HackerEarth provides a platform to assess, hire, engage & upskill developers through tests & hackathons.",
+      "description": "HackerEarth provides a platform to test and hire developers using skill-based tests. HackerEarth also provides a way to host internal/branded hackathons and upskilling sessions where they manage the entire experience.",
       "roles": [
         {
           "id": "infrastructure_engineer",
@@ -571,11 +571,8 @@
           "type": "internship",
           "location": "onsite",
           "highlights": [
-            "Wrote the IaC for the entire production architecture.",
-            "Created tooling to deploy the IaC in an alternate AWS AZ.",
-            "Developed scripts to launch and terminate EC2 instances.",
-            "Isolated staging env from production in a separate VPC.",
-            "Enabled one‑click provisioning of staging environments."
+            "Migrated the production infrastructure to IaC for repeatable deployments across AWS availability zones.",
+            "Isolated staging from production & enabled one-click provisioning of new staging environments."
           ]
         },
         {
@@ -588,12 +585,9 @@
           "type": "internship",
           "location": "onsite",
           "highlights": [
-            "Wrote a code‑evaluation engine to evaluate Java projects.",
-            "Created tooling to automatically build and execute projects.",
-            "Wrapped Ant in an async message‑based Python evaluator.",
-            "Developed the scaffolding architecture using RabbitMQ.",
-            "Added provider‑agnostic database connectivity using JDBC.",
-            "Installed security policies such as memory and I/O limits."
+            "Developed a code-evaluation engine to build, run & assess Java projects under memory & I/O limits.",
+            "Integrated the engine asynchronously with the existing evaluation system to report scores, results & errors.",
+            "Added support for database usage in test problems & solutions with Java Database Connectivity API."
           ]
         }
       ]
