@@ -383,8 +383,8 @@
       "contact": {
         "emails": ["hr@bigsky.software"]
       },
-      "summary": "High power tools for HTML.",
-      "description": "htmx makes AJAX, CSS Transitions, WebSockets and Server Sent Events accessible directly in HTML, using attributes, so modern user interfaces can be built with the simplicity and power of hypertext.",
+      "summary": "htmx makes animations, transitions, AJAX, WebSockets & SSE accessible from HTML, no JavaScript needed.",
+      "description": "htmx makes animations, transitions, AJAX, WebSockets and Server Sent Events (SSE) accessible directly in HTML, using attributes, without needing to use JavaScript, so modern user interfaces can be built with the simplicity and power of hypertext.",
       "roles": [
         {
           "id": "ceo",
@@ -394,11 +394,7 @@
           },
           "type": "foss",
           "location": "remote",
-          "highlights": [
-            "<em>Assumption:</em> <a href=\"https://htmx.org/essays/lore/#htmx-ceo\">Every human is a CEO of htmx.</a>",
-            "<em>Assumption:</em> I am human.",
-            "Therefore, I am a CEO of htmx. <em>Q.E.D.</em>"
-          ]
+          "summary": "<a href=\"https://htmx.org/essays/lore/#htmx-ceo\">Everyone is a CEO of htmx</a>; since the word \"everyone\" includes me, I am also a CEO of htmx. <em>Q.E.D.</em>"
         }
       ]
     },
