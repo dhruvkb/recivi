@@ -514,7 +514,7 @@
     },
     {
       "id": "fampay",
-      "name": "FamPay (now Fam)",
+      "name": "FamPay (now FamApp)",
       "shortName": "Fam",
       "url": {
         "dest": "https://famapp.in",
@@ -525,8 +525,8 @@
         "state": "KA",
         "countryCode": "IN"
       },
-      "summary": "A neobank for teenagers to manage their pocket money.",
-      "description": "FamPay is a neobank that helps teenagers learn everything there is to know about money - from saving and spending to investing and earning.",
+      "summary": "FamPay is a neobank that helps teens to build financial independence & literacy, under parental supervision.",
+      "description": "FamPay is a neobank that helps teens to build financial independence and literacy, under parental supervision.",
       "roles": [
         {
           "id": "software_engineer",
@@ -538,11 +538,10 @@
           "type": "part-time",
           "location": "onsite",
           "highlights": [
-            "Developed the end-to-end payment flow for the app.",
-            "Integrated multiple payment gateways to increase reliability.",
-            "Ensured idempotency and transactional integrity in payments."
+            "Built an end-to-end payment flow from multiple sources such as wallets & cards to the destination account.",
+            "Increased transaction reliability with redundant payment gateways, idempotency & automatic reversals."
           ],
-          "tags": ["resume_pdf"]
+          "tags": ["cv_pdf"]
         }
       ]
     },
