@@ -338,41 +338,38 @@
         "dest": "https://wordpress.org",
         "label": "WordPress homepage"
       },
-      "summary": "The open-source CMS that powers over 40% of the web.",
-      "description": "WordPress is the open-source content management system that powers over 40% of the web. It is also the home of the <a href=\"https://openverse.org\">Openverse</a> project.",
+      "summary": "WordPress is the open-source CMS that powers over 40% of the web & is the home of the <a href=\"https://openverse.org\">Openverse</a> project.",
+      "description": "WordPress is the open-source content management system that powers over 40% of the web. It is the home of the <a href=\"https://openverse.org\">Openverse</a> project.",
       "roles": [
         {
-          "id": "team_lead",
-          "name": "Team lead",
+          "id": "engineering_manager",
+          "name": "Engineering manager",
+          "teams": ["Openverse"],
           "period": {
-            "start": [2024, 12]
+            "start": [2024, 10]
           },
           "type": "full-time",
           "location": "remote",
-          "highlights": [
-            "Led a globally distributed, remote team of maintainers.",
-            "Conducted regular 1:1s, team meetings, retros and meetups."
-          ],
+          "summary": "Led a global maintainer team, driving execution through 1:1s, retrospectives, team meetings & IRL meetups.",
           "epicIds": ["openverse"],
-          "tags": ["resume_pdf"]
+          "tags": ["resume_pdf", "cv_pdf"]
         },
         {
           "id": "project_maintainer",
           "name": "Project maintainer",
+          "teams": ["Openverse"],
           "period": {
-            "start": [2021, 4]
+            "start": [2021, 4],
+            "end": [2024, 9]
           },
           "type": "foss",
           "location": "remote",
           "highlights": [
-            "Developed the <a href=\"https://openverse.org\">Openverse</a> media search engine.",
-            "Wrote & reviewed technical implementation plans.",
-            "Added new features with the WordPress FOSS community.",
-            "Onboarded & mentored new open-source contributors.",
-            "Evangelised Openverse at flagship WordCamps in EU & Asia."
+            "Maintained & evolved <a href=\"https://openverse.org\">Openverse</a> end-to-end across infrastructure, data pipelines, backend API & frontend.",
+            "Represented Openverse at flagship WordCamps worldwide, mentoring & onboarding new contributors."
           ],
           "epicIds": ["openverse"],
-          "tags": ["resume_pdf"]
+          "tags": ["resume_pdf", "cv_pdf"]
         }
       ]
     },
