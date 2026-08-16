@@ -31,7 +31,8 @@
           "name": "WhatsApp"
         },
         "url": "https://wa.me/+918171615670",
-        "username": "+91 8171615670"
+        "username": "+91 8171615670",
+        "tags": ["resume_pdf", "cv_pdf"]
       },
       {
         "site": {
@@ -39,7 +40,8 @@
           "name": "GitHub"
         },
         "url": "https://github.com/dhruvkb",
-        "username": "dhruvkb"
+        "username": "dhruvkb",
+        "tags": ["resume_pdf", "cv_pdf"]
       },
       {
         "site": {
@@ -47,7 +49,8 @@
           "name": "LinkedIn"
         },
         "url": "https://www.linkedin.com/in/dhruvkb",
-        "username": "dhruvkb"
+        "username": "dhruvkb",
+        "tags": ["resume_pdf", "cv_pdf"]
       },
       {
         "site": {
