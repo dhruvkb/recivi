@@ -981,31 +981,8 @@
         "dest": "https://channeli.in",
         "label": "Omniport homepage"
       },
-      "summary": "End‑to‑end platform & app ecosystem for institute web portals.",
+      "summary": "Omniport is an end-to-end platform & app ecosystem for institute web portals.",
       "projects": [
-        {
-          "id": "infrastructure",
-          "name": "Infrastructure",
-          "url": {
-            "dest": "https://github.com/IMGIITRoorkee/omniport-docker",
-            "label": "GitHub repo for Omniport infrastructure"
-          },
-          "role": "Creator",
-          "highlights": [
-            "Designed architecture to be cloud-native and scalable.",
-            "Deployed as micro-services with Docker (+Compose)."
-          ],
-          "technologies": [
-            {
-              "id": "docker",
-              "name": "Docker"
-            },
-            {
-              "id": "gnubash",
-              "name": "Bash"
-            }
-          ]
-        },
         {
           "id": "backend",
           "name": "Backend",
@@ -1015,9 +992,8 @@
           },
           "role": "Creator",
           "highlights": [
-            "Designed to be unopinionated, flexible & customisable.",
-            "Developed plug-&-play system for Django-based apps.",
-            "Added WebSockets support for real-time interactive apps."
+            "Designed an unopinionated, flexible, customisable base with a plug-and-play layer for Django apps.",
+            "Upgraded the stack to async Python to support WebSockets & streaming for real-time interactive apps."
           ],
           "technologies": [
             {
@@ -1036,6 +1012,26 @@
           ]
         },
         {
+          "id": "infrastructure",
+          "name": "Infrastructure",
+          "url": {
+            "dest": "https://github.com/IMGIITRoorkee/omniport-docker",
+            "label": "GitHub repo for Omniport infrastructure"
+          },
+          "role": "Creator",
+          "summary": "Deployed the monolithic platform in containers with Docker Compose, making it cloud-native & scalable.",
+          "technologies": [
+            {
+              "id": "docker",
+              "name": "Docker"
+            },
+            {
+              "id": "gnubash",
+              "name": "Bash"
+            }
+          ]
+        },
+        {
           "id": "documentation",
           "name": "Documentation",
           "url": {
@@ -1043,10 +1039,8 @@
             "label": "Developer documentation for Omniport"
           },
           "role": "Author",
-          "summary": "The primary source of information for developers.",
           "highlights": [
-            "Conceived and initialised the documentation site.",
-            "Authored <a href=\"https://documentation.divio.com/\">all 4 types</a> of documentation for the project.",
+            "Built the documentation system & authored guides for new contributors & experienced maintainers.",
             "Created the <a href=\"https://www.youtube.com/watch?v=jU7c4N0R3Vc\">Omniport launch video</a>."
           ],
           "technologies": [
