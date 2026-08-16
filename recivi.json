@@ -1217,42 +1217,6 @@
       ]
     },
     {
-      "id": "2fac",
-      "name": "2Fac",
-      "url": {
-        "dest": "https://2fac.vercel.app",
-        "label": "2Fac homepage"
-      },
-      "summary": "An open-source web-based 2FA app that syncs via GitHub.",
-      "projects": [
-        {
-          "id": "totp_pwa",
-          "name": "TOTP PWA",
-          "role": "Creator",
-          "summary": "Time-based one-time password generator with clean UI.",
-          "highlights": [
-            "Used native UI elements for iOS and Android for cohesive UX.",
-            "Added data back up and sync via a private GitHub repo.",
-            "Provided offline functionality and data import/export."
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "ionic",
-              "name": "Ionic"
-            },
-            {
-              "id": "vuedotjs",
-              "name": "Vue"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "portfolio",
       "name": "Portfolio",
       "url": {
@@ -1284,6 +1248,34 @@
             {
               "id": "recivi",
               "name": "Récivi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fac2r",
+      "name": "Fac2r",
+      "url": {
+        "dest": "https://2fac.vercel.app",
+        "label": "Fac2r homepage"
+      },
+      "summary": "Fac2r is an open-source two-factor authentication app designed for power users.",
+      "projects": [
+        {
+          "id": "totp_wa",
+          "name": "TOTP web-app",
+          "role": "Creator",
+          "summary": "Built Fac2r's desktop app with a clean, accessible UI optimised for efficient keyboard & mouse workflows.",
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "vuedotjs",
+              "name": "Vue"
             }
           ]
         }
