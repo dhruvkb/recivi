@@ -949,16 +949,14 @@
         "dest": "https://cc-vocabulary.netlify.app",
         "label": "Vocabulary homepage"
       },
-      "summary": "A design system & component library for CC's web properties.",
+      "summary": "Vocabulary is a design system & component library serving all of Creative Commons' web properties.",
+      "description": "Vocabulary is a design system and component library for all of Creative Commons' web properties.",
       "projects": [
         {
           "id": "ui_components",
           "name": "UI components",
           "role": "Creator",
-          "highlights": [
-            "Developed a system of design tokens and Vue components.",
-            "Documented UI patterns using an interactive Storybook."
-          ],
+          "summary": "Developed a design-token-driven UI component system & interactive documentation for reusable patterns.",
           "technologies": [
             {
               "id": "javascript",
