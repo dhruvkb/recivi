@@ -189,6 +189,8 @@
         "dest": "https://iitr.ac.in",
         "label": "IIT Roorkee homepage"
       },
+      "summary": "IIT Roorkee, founded in 1847, is the oldest engineering institute in Asia & an <a href=\"https://en.wikipedia.org/wiki/Institutes_of_National_Importance\">Institute of National Importance</a>.",
+      "description": "IIT Roorkee, founded in 1847, is the oldest engineering institution in Asia. In 2001, it became an IIT and was declared an <a href=\"https://en.wikipedia.org/wiki/Institutes_of_National_Importance\">Institute of National Importance</a>.",
       "address": {
         "city": "Roorkee",
         "state": "UK",
@@ -205,10 +207,13 @@
             "start": [2015],
             "end": [2019]
           },
-          "score": "7.286",
+          "score": "7.286 (dispt.)",
           "maxScore": "10.000",
           "field": "Engineering Physics",
-          "tags": ["resume_pdf"]
+          "summary": "Ranked in JEE Main's top 150,000 out of 1,300,000+ candidates & 3,110 out of 125,000+ in JEE Advanced.",
+          "description": "Ranked in the top 150k out of 1.3M+ (13 lakh) candidates in JEE Main to qualify for JEE Advanced, and ranked 3110 out of 125k+ (1.25 lakh) candidates in JEE Advanced to secure this seat.",
+          "courses": ["PHN201: Quantum Mechanics"],
+          "tags": ["cv_pdf"]
         }
       ]
     },
