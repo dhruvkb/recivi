@@ -218,13 +218,15 @@
       ]
     },
     {
-      "id": "jaipuariar",
+      "id": "jaipuriar",
       "name": "Jaipuriar School, Navi Mumbai",
       "shortName": "Jaipuriar",
       "url": {
         "dest": "https://jaipuriarschool.org",
         "label": "Jaipuriar homepage"
       },
+      "summary": "Jaipuriar School, founded in 2001, is a CBSE-affiliated Navi Mumbai day school with classes up to Class XII.",
+      "description": "Jaipuriar School, founded in 2001, is a CBSE-affiliated day school that offers classes up to Class XII.",
       "address": {
         "city": "Navi Mumbai",
         "state": "MH",
@@ -238,12 +240,19 @@
           "shortName": "CBSE Class 12",
           "issue": [2014],
           "period": {
-            "start": [2015],
-            "end": [2019]
+            "start": [2013],
+            "end": [2014]
           },
-          "score": "7.286",
-          "maxScore": "10.000",
-          "field": "Science + CS"
+          "score": "91.0",
+          "maxScore": "100.0",
+          "summary": "Scored 91%, averaged across all subjects: Physics, Chemistry, Maths, English & Computer Science.",
+          "courses": [
+            "Physics",
+            "Chemistry",
+            "Mathematics",
+            "Functional English",
+            "Computer Science"
+          ]
         }
       ]
     },
