@@ -1135,21 +1135,14 @@
         "dest": "https://recivi.pages.dev",
         "label": "Recivi homepage"
       },
-      "summary": "A new kind of résumé for computers and humans, in that order.",
+      "summary": "Récivi is a structured résumé format for computers & humans, with a data schema & presentation renderers.",
+      "description": "Récivi is a new kind of résumé for computers & humans, in that order. It provides a schema to store résumé data and renderers to display it in many human-friendly way.",
       "projects": [
         {
           "id": "schema",
           "name": "Schema",
-          "url": {
-            "dest": "https://recivi.pages.dev/",
-            "label": "Récivi homepage"
-          },
           "role": "Creator",
-          "summary": "A new kind of résumé for computers and humans, in that order.",
-          "highlights": [
-            "Developed the JSON schema and TypeScript interfaces.",
-            "This résumé was made with Récivi as a proof-of-concept!"
-          ],
+          "summary": "Récivi provides models, schemas, types & supporting utilities for handling & displaying résumé data.",
           "technologies": [
             {
               "id": "typescript",
@@ -1165,24 +1158,47 @@
               "name": "Zod"
             }
           ],
-          "tags": ["resume_pdf"]
+          "tags": ["cv_pdf"]
+        },
+        {
+          "id": "pf",
+          "name": "PF Portfolio",
+          "role": "Creator",
+          "summary": "PF is a Récivi renderer that generates static personal portfolio websites using MDX, TypeScript & Astro.",
+          "highlights": [
+            "Built a static site with almost zero client-side JavaScript, including a blog, microblog & interactive résumé.",
+            "Generated favicons, Open Graph images & PDF versions of multiple résumés dynamically at build time."
+          ],
+          "technologies": [
+            {
+              "id": "mdx",
+              "name": "MDX"
+            },
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "astro",
+              "name": "Astro"
+            }
+          ],
+          "tags": ["cv_pdf"]
         },
         {
           "id": "documentation",
           "name": "Documentation",
           "role": "Creator",
-          "summary": "A new kind of résumé for computers and humans, in that order."
-        },
-        {
-          "id": "website",
-          "name": "Website",
-          "role": "Creator",
-          "summary": "Contains my homepage, interactive résumé and digital garden.",
           "highlights": [
-            "Deployed as a static site with an automated CI + CD pipeline.",
-            "Used low-tech frameworks to ship negligible JS to the client."
+            "Authored the documentation & built an automated CI/CD pipeline that deploys a static site for each release.",
+            "Built a system to convert Schema/PF Zod models to <a href=\"https://json-schema.org/\">JSON Schema</a> & auto-generate documentation pages."
           ],
           "technologies": [
+            {
+              "id": "mdx",
+              "name": "MDX"
+            },
             {
               "id": "typescript",
               "name": "TypeScript",
@@ -1193,23 +1209,10 @@
               "name": "Astro"
             },
             {
-              "id": "tailwindcss",
-              "name": "Tailwind"
-            },
-            {
-              "id": "alpinedotjs",
-              "name": "Alpine"
-            },
-            {
-              "id": "recivi",
-              "name": "Récivi",
-              "url": {
-                "dest": "https://recivi.pages.dev/",
-                "label": "Récivi homepage"
-              }
+              "id": "starlight",
+              "name": "Starlight"
             }
-          ],
-          "tags": ["resume_pdf"]
+          ]
         }
       ]
     },
