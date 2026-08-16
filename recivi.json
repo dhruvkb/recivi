@@ -447,8 +447,8 @@
         "state": "CA",
         "countryCode": "US"
       },
-      "summary": "Non-profit promoting public domain & openly-licensed media.",
-      "description": "Creative Commons is a non-profit organisation and international network that promotes sharing of openly-licensed media.",
+      "summary": "Creative Commons is non-profit global network that promotes sharing public-domain & openly licensed media.",
+      "description": "Creative Commons is a non-profit organisation and international network that promotes sharing of public domain & openly-licensed media.",
       "roles": [
         {
           "id": "project_maintainer",
@@ -460,10 +460,11 @@
           "type": "foss",
           "location": "remote",
           "highlights": [
-            "Developed the <a href=\"https://github.com/creativecommons/vocabulary\">Vocabulary</a> design system.",
-            "Worked on features with the CC FOSS community."
+            "Continued to maintain & enhance CC Vocabulary, the design system I built during Google Summer of Code.",
+            "Drove Vocabulary adoption in Creative Commons' web properties like CC Search & CC License Chooser."
           ],
-          "epicIds": ["vocabulary"]
+          "epicIds": ["vocabulary"],
+          "tags": ["cv_pdf"]
         },
         {
           "id": "foss_community_coordinator",
@@ -475,11 +476,10 @@
           "type": "contract",
           "location": "remote",
           "highlights": [
-            "Onboarded & mentored new open-source contributors.",
-            "Maintained the <a href=\"https://github.com/creativecommons/creativecommons.github.io-source/\">open-source site</a> and <a href=\"https://github.com/creativecommons/ccos-scripts/\">automation workflows</a>.",
-            "Increased activity, reach & engagement on <a href=\"https://twitter.com/cc_opensource\">Twitter (now 𝕏)</a>."
+            "Grew community reach & engagement on <a href=\"https://twitter.com/cc_opensource\">Twitter</a>, & onboarded new open-source contributors via <a href=\"https://github.com/creativecommons\">GitHub</a>.",
+            "Maintained the <a href=\"https://github.com/creativecommons/creativecommons.github.io-source\">Creative Commons Open Source website</a> & <a href=\"https://github.com/creativecommons/ccos-scripts\">CC's open source community infrastructure</a>."
           ],
-          "tags": ["resume_pdf"]
+          "tags": ["cv_pdf"]
         },
         {
           "id": "internship_mentor",
@@ -490,13 +490,9 @@
           },
           "type": "foss",
           "location": "remote",
-          "highlights": [
-            "Onboarded & guided applicants; scored & ranked proposals.",
-            "Mentored <a href=\"https://developers.google.com/season-of-docs\"><em>Google Season of Docs</em></a> in 2020.",
-            "Mentored <a href=\"https://www.outreachy.org/\"><em>Outreachy</em></a> in winter 2019-20 & summer 2020."
-          ],
+          "summary": "Ranked, selected & mentored interns for <a href=\"https://developers.google.com/season-of-docs\"><em>Google Season of Docs</em></a> '20 & <a href=\"https://www.outreachy.org\"><em>Outreachy</em></a> winter '19-20 & summer '20.",
           "epicIds": ["vocabulary"],
-          "tags": ["resume_pdf"]
+          "tags": ["cv_pdf"]
         },
         {
           "id": "gsoc_engineer",
@@ -507,13 +503,12 @@
           },
           "type": "internship",
           "location": "remote",
+          "description": "Google Summer of Code is a global, online program focused on bringing new contributors into open source software development",
           "highlights": [
-            "Proposed own idea for a design system for CC, Vocabulary.",
-            "Developed Vocabulary in close collaboration with designers.",
-            "Initiated & supported Vocabulary integration with CC sites."
+            "Conceived, planned, proposed & <a href=\"https://opensource.creativecommons.org/blog/series/gsoc-2019-vocabulary\">developed</a> Vocabulary, Creative Commons' new unified design system.",
+            "Drove Vocabulary adoption in Creative Commons' web properties like CC Search & CC License Chooser."
           ],
-          "epicIds": ["vocabulary"],
-          "tags": ["resume_pdf"]
+          "epicIds": ["vocabulary"]
         }
       ]
     },
