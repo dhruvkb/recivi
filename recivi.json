@@ -618,7 +618,7 @@
         "dest": "https://openverse.org",
         "label": "Openverse homepage"
       },
-      "summary": "Openverse is a catalog of 800M+ openly licensed media, a search engine, an API & an <a href=\"https://docs.openverse.org/api/reference/made_with_ov.html\">ecosystem of integrations</a>.",
+      "summary": "Openverse is a catalog of 800M+ openly licensed media, a search engine, an API & an <a href=\"https://docs.openverse.org/api/reference/made_with_ov.html\">integrations ecosystem</a>.",
       "description": "Openverse is a catalog of 800M+ openly-licensed images and audio, aggregated from open APIs, public repositories, and the Common Crawl dataset. It provides a search engine that makes the media discoverable and facilitates reuse and attribution. It also provides an API for third-parties to integrate the search into their own applications, and has a growing <a href=\"https://docs.openverse.org/api/reference/made_with_ov.html/\">ecosystem of integrations</a>.",
       "projects": [
         {
