@@ -591,6 +591,7 @@
           ],
           "technologies": [
             {
+              "id": "python",
               "name": "Python"
             },
             {
