@@ -504,8 +504,8 @@
       "name": "IMG IIT Roorkee",
       "shortName": "IMG IIT-R",
       "url": {
-        "dest": "https://img.channeli.in",
-        "label": "IMG homepage"
+        "dest": "https://linktr.ee/img_iitr",
+        "label": "IMG's Linktree"
       },
       "summary": "IMG is the technical student group behind the IIT Roorkee website & Channel-i, the institute's intranet portal.",
       "description": "IMG a student group, which cultivates technical innovation and drives the development of software systems and niche applications which empathize with the residents of IIT Roorkee.",
@@ -886,7 +886,7 @@
       "id": "omniport",
       "name": "Omniport",
       "url": {
-        "dest": "https://channeli.in",
+        "dest": "https://omniport.readthedocs.io",
         "label": "Omniport homepage"
       },
       "summary": "Omniport is an end-to-end platform & app ecosystem for institute web portals.",
