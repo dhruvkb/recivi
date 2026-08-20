@@ -944,7 +944,7 @@
           "name": "Documentation",
           "url": {
             "dest": "https://omniport.readthedocs.io",
-            "label": "Developer documentation for Omniport"
+            "label": "Omniport documentation"
           },
           "role": "Author",
           "highlights": [
@@ -1004,6 +1004,10 @@
         {
           "id": "documentation",
           "name": "Documentation",
+          "url": {
+            "dest": "https://pls.cli.rs",
+            "label": "`pls` documentation"
+          },
           "role": "Author",
           "description": "<code>pls</code> is accompanied by thorough documentation describing all the options, their behaviour and quirks, with adequate examples.",
           "highlights": [
@@ -1097,6 +1101,10 @@
         {
           "id": "documentation",
           "name": "Documentation",
+          "url": {
+            "dest": "https://recivi.pages.dev",
+            "label": "Récivi documentation"
+          },
           "role": "Creator",
           "highlights": [
             "Authored the documentation & built an automated CI/CD pipeline that deploys a static site for each release.",
