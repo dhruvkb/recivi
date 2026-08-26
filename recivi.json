@@ -578,7 +578,8 @@
           "description": "<a href=\"https://docs.parse.ly/user-handbook/dashboard/parsely-sage\">Sage</a> is an AI agent that can answer complex analytical questions to turn data into actionable insights & decisions.",
           "highlights": [
             "Tripled efficiency by auto-generating MCP & Sage tools from Parse.ly APIs using their OpenAPI specs.",
-            "Built Sage's agentic loop to orchestrate multiple tool calls for complex queries & rich, interactive widgets."
+            "Built Sage's agentic loop to orchestrate multiple tool calls for complex queries & rich, interactive widgets.",
+            "Created the eval stack with LLM-as-judge metrics for trace (correct, helpful) & session (complete, low-TTR)."
           ],
           "technologies": [
             {
