@@ -245,7 +245,10 @@
           },
           "type": "full-time",
           "location": "remote",
-          "summary": "Led a global maintainer team, driving execution through 1:1s, retrospectives, team meetings & IRL meetups.",
+          "highlights": [
+            "Led a global maintainer team, driving execution through 1:1s, retrospectives, team meetings & IRL meetups.",
+            "Attended & successfully completed Reboot leadership training (IRL) and New Lead coaching series (virtual)."
+          ],
           "epicIds": ["openverse"],
           "tags": ["resume_pdf", "cv_pdf"]
         },
