@@ -533,7 +533,7 @@
       "projects": [
         {
           "id": "dash",
-          "name": "Dash",
+          "name": "Dashboard",
           "role": "Developer",
           "summary": "The Parse.ly dashboard delivers real-time analytics, visualisations & reports through an accessible interface.",
           "description": "The Parse.ly dashboard delivers real-time analytics, visualisations and reports through an accessible interface that everyone, not just data people, can understand.",
