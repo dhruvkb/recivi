@@ -253,7 +253,8 @@
           "name": "Engineering manager",
           "teams": ["Openverse"],
           "period": {
-            "start": [2024, 10]
+            "start": [2024, 10],
+            "end": [2025, 6]
           },
           "type": "full-time",
           "location": "remote",
