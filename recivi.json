@@ -234,24 +234,11 @@
           "summary": "Conceived & built the unified framework underpinning the <a href=\"https://parsely.com\">Parse.ly</a> API, MCP server & agent/chatbot Sage.",
           "epicIds": ["parsedotly"],
           "tags": ["resume_pdf", "cv_pdf"]
-        }
-      ]
-    },
-    {
-      "id": "wordpress",
-      "name": "WordPress",
-      "shortName": "WP",
-      "url": {
-        "dest": "https://wordpress.org",
-        "label": "WordPress homepage"
-      },
-      "summary": "WordPress is the open-source CMS that powers over 40% of the web & is the home of the <a href=\"https://openverse.org\">Openverse</a> project.",
-      "description": "WordPress is the open-source content management system that powers over 40% of the web. It is the home of the <a href=\"https://openverse.org\">Openverse</a> project.",
-      "roles": [
+        },
         {
           "id": "engineering_manager",
           "name": "Engineering manager",
-          "teams": ["Openverse"],
+          "teams": ["Five For The Future", "Openverse"],
           "period": {
             "start": [2024, 10],
             "end": [2025, 6]
@@ -264,8 +251,8 @@
         },
         {
           "id": "project_maintainer",
-          "name": "Project maintainer",
-          "teams": ["Openverse"],
+          "name": "Software engineer",
+          "teams": ["Five For The Future", "Openverse"],
           "period": {
             "start": [2021, 4],
             "end": [2024, 9]
