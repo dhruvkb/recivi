@@ -422,7 +422,7 @@
     },
     {
       "id": "fampay",
-      "name": "FamPay (now FamApp)",
+      "name": "FamPay (now Fam)",
       "shortName": "Fam",
       "url": {
         "dest": "https://famapp.in",
@@ -433,8 +433,8 @@
         "state": "KA",
         "countryCode": "IN"
       },
-      "summary": "FamPay is a neobank that helps teens to build financial independence & literacy, under parental supervision.",
-      "description": "FamPay is a neobank that helps teens to build financial independence and literacy, under parental supervision.",
+      "summary": "Fam is a neobank that helps teens to build financial independence & literacy, under parental supervision.",
+      "description": "Fam is a neobank that helps teens to build financial independence and literacy, under parental supervision.",
       "roles": [
         {
           "id": "software_engineer",
