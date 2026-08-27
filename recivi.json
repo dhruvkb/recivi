@@ -1262,7 +1262,12 @@
       "subSkills": [
         {
           "id": "django",
-          "name": "Django"
+          "name": "Django",
+          "subSkills": [
+            {
+              "name": "REST framework"
+            }
+          ]
         }
       ]
     },
