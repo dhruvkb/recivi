@@ -825,7 +825,7 @@
           "summary": "BrowserStack's user & billing platform handled accounts, authentication, subscriptions, invoices & payments.",
           "description": "BrowserStack's user and billing platform handled everything from user accounts and authentication to subscriptions, invoices and payments. It integrated with identity providers, subscription platforms and payment gateways.",
           "highlights": [
-            "Oversaw the complex finite-state machine of subscription statuses & codified resolutions of new edge cases.",
+            "Oversaw the complex finite-state machine of subscription statuses, & resolved & codified new edge cases.",
             "Created a dashboard to aggregate complete subscription, invoice & payment history of each customer."
           ],
           "technologies": [
