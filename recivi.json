@@ -286,13 +286,13 @@
       "roles": [
         {
           "id": "ceo",
-          "name": "Chief executive officer",
+          "name": "Chief executive officer /jk",
           "period": {
             "start": [2024, 1]
           },
           "type": "foss",
           "location": "remote",
-          "summary": "<a href=\"https://htmx.org/essays/lore/#htmx-ceo\">Everyone is a CEO of htmx</a>; since the word \"everyone\" includes me, I am also a CEO of htmx. <em>Q.E.D.</em>"
+          "summary": "<a href=\"https://htmx.org/essays/lore/#htmx-ceo\">Everyone is a CEO of htmx</a>; since the word \"everyone\" includes me, I am also a CEO of htmx. <em>Q.E.D. J.K. L.O.L.</em>"
         }
       ]
     },
